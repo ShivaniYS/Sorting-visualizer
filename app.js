@@ -15,8 +15,7 @@ const start = async () => {
   if (algoValue === 1) await algorithm.BubbleSort();
   if (algoValue === 2) await algorithm.SelectionSort();
   if (algoValue === 3) await algorithm.InsertionSort();
-  if (algoValue === 4) await algorithm.MergeSort();
-  if (algoValue === 5) await algorithm.QuickSort();
+ 
 };
 
 const RenderScreen = async () => {
